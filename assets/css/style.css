@@ -1,0 +1,76 @@
+body {
+    background-color: #232B2B;
+    margin-top: 5.2rem;
+}
+
+nav.main {
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 5rem;
+    padding: .5rem;
+    border-bottom: 2px solid #DC3D24;
+    display: flex;
+    flex-direction: row;
+}
+
+nav.main h1 {
+    color: #E3AE57;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+    font-size: 2.5rem;
+}
+
+nav.main input {
+    height: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    background-color: #232B2B;
+    border: 1px solid #DC3D24;
+    color: #E3AE57;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+}
+
+nav.main label {
+    height: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-left: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav.main button {
+    height: 1.6rem;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #E3AE57;
+    color: #232B2B;
+    border: none;
+}
+
+nav.main button:hover {
+    background-color: #a39E67;
+}
+
+figure#candlesticks-wrapper {
+    display: block;
+    width: 50%;
+    height: 30rem;
+}
+
+#candlesticks .label {
+    fill: #E3AE57;
+}
+
+#candlesticks .stick {
+    fill: #E3AE57;
+}
