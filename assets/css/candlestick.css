@@ -1,0 +1,18 @@
+#candlestick-chart{
+    height:40rem;
+}
+#candlesticks .label {
+    fill: #E3AE57;
+}
+
+#candlesticks .stick {
+    fill: #E3AE57;
+}
+
+#candlesticks #hint-rect{
+    fill: #DC3D24;
+}
+
+#candlesticks #hint-text{
+    stroke: #232B2B;
+}
